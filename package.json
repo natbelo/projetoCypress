@@ -1,0 +1,27 @@
+{
+  "name": "projetoCypress",
+  "version": "1.0.0",
+  "description": "",
+  "main": "cypress.config.js",
+  "scripts": {
+    "test": "cypress run",
+    "test:report": "marge --reportDir ./mochawesome-report --reportFilename index test/mochawesome/*.json"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/natbelo/projetoCypress.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/natbelo/projetoCypress/issues"
+  },
+  "homepage": "https://github.com/natbelo/projetoCypress#readme",
+  "devDependencies": {
+    "cypress": "^12.17.4",
+    "cypress-mochawesome-reporter": "^3.7.0",
+    "mocha": "^10.2.0",
+    "mochawesome": "^7.1.3"
+  }
+}
